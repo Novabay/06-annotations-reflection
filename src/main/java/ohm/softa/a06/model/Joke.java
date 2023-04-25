@@ -4,7 +4,6 @@ import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -12,9 +11,11 @@ import java.util.List;
  * Created on 11/9/17.
  */
 public final class Joke {
-
+	@SerializedName("id")
 	private String identifier;
+	@SerializedName("")
 	private String content;
+	@SerializedName("")
 	private List<String> rubrics;
 
 
